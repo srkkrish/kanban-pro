@@ -22,4 +22,4 @@ This application requires only a modern web browser (Chrome, Firefox, Safari, Ed
 Clone this repository or download the source files:
 
 ```bash
-git clone [https://github.com/srkkrish/kanban-pro.git]
+git clone https://github.com/srkkrish/kanban-pro.git
