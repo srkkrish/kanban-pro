@@ -1,77 +1,57 @@
 Modern Kanban Board
-
-An interactive and responsive Kanban board application featuring smooth animations, intuitive drag-and-drop functionality, and persistent local storage.
+A sleek, responsive Kanban board application with smooth animations, drag-and-drop functionality, and local storage persistence.
 
 Features
-
-Three-Column Layout: Organize tasks into "To Do," "In Progress," and "Completed" columns.
-Drag and Drop: Easily move tasks between columns with intuitive drag-and-drop functionality.
-Smooth Animations: Enjoy smooth transitions and visual feedback for all interactions.
-Local Storage: Tasks persist between browser sessions, ensuring no loss of progress.
-Context Menu: Right-click on tasks to edit or delete them for efficient task management.
-Mobile Responsive: The application adapts to all screen sizes for an optimized experience on mobile devices.
-Visual Feedback: Color-coded columns and tasks with hover effects for an enhanced user experience.
-Task Timestamps: Automatically records the date and time for each task creation and update.
+Three-Column Layout: Organize tasks in "To Do", "In Progress", and "Completed" columns
+Drag and Drop: Easily move tasks between columns
+Animations: Smooth transitions and visual feedback for all interactions
+Local Storage: Tasks persist between browser sessions
+Context Menu: Right-click on tasks to edit or delete them
+Mobile Responsive: Works on all screen sizes
+Visual Feedback: Color-coded columns and tasks with hover effects
+Task Timestamps: Automatic date and time recording for each task
 Getting Started
-
 Prerequisites
-
-This application requires only a modern web browser (Chrome, Firefox, Safari, Edge, etc.).
+No special prerequisites are needed. This application runs in any modern web browser.
 
 Installation
-
-Clone this repository or download the source files:
-
-Bash
+Clone this repository or download the source files
 
 git clone https://github.com/ansh0330/Modern-Kanban-Board.git
-Open index.html in your web browser.
+Open index.html in your preferred web browser
 
 Usage
-
 Adding Tasks
-
-Enter your task in the input field at the bottom of the desired column.
-Click the "Add Task" button or press the Enter key.
-The task will be added to the selected column, along with the current timestamp.
+Type your task in the input field at the bottom of any column
+Click the "Add Task" button or press Enter
+The task will appear in the selected column with the current timestamp
 Moving Tasks
-
-Click and hold on a task.
-Drag it to another column.
-Release the task in its new location.
+Click and hold on a task
+Drag it to another column
+Release to drop the task in its new location
 Editing Tasks
-
-Right-click on a task.
-Select "Edit Task" from the context menu.
-Enter the new task text in the prompt.
-The task will be updated with the new text and the current timestamp.
+Right-click on a task
+Select "Edit Task" from the context menu
+Enter the new task text in the prompt
+The task will update with the new text and a current timestamp
 Deleting Tasks
-
-Right-click on a task.
-Select "Delete Task" from the context menu.
-The task will be removed with a smooth fade-out animation.
+Right-click on a task
+Select "Delete Task" from the context menu
+The task will be removed with a fade-out animation
 Technical Details
-
-Responsive Design:
-The application utilizes CSS Grid and Flexbox to ensure responsiveness across various screen sizes. Media queries are used to adjust the layout and font sizes for optimal viewing on mobile devices and tablets.
-Context Menu:
-The context menu is created using Javascript event listeners that trigger on right mouse clicks. The menu is dynamically created and styled using css.
 File Structure
-index.html: The main HTML structure.
-style.css: Contains styling, using CSS variables for theming.
-script.js: Handles all JavaScript functionality.
+index.html - Main HTML structure
+style.css - Styling with CSS variables for theming
+script.js - JavaScript functionality
 Key Technologies
-Vanilla JavaScript: No dependencies or frameworks required.
-CSS3: Modern styling using variables, transitions, and animations.
-HTML5 Drag and Drop API: Native drag-and-drop functionality.
-Local Storage API: Persistent data storage in the browser, so your tasks are saved even after closing and reopening the browser.
+Vanilla JavaScript: No dependencies or frameworks required
+CSS3: Modern styling with variables, transitions, and animations
+HTML5 Drag and Drop API: Native drag and drop functionality
+Local Storage API: Browser-based data persistence
 Animation Effects
-Column entrance animations on page load.
-Task creation and deletion animations for smoother user experience.
-Visual cues during drag-and-drop provide clear feedback.
-Task count updates with a scaling effect for better visibility.
-A shake effect provides visual feedback for input validation errors.
-A right-click context menu with fade-in/out effects enhances the user interface.
-Contributing
-
-Contributions, including bug fixes and feature enhancements, are welcome. Feel free to fork this repository and submit pull requests.
+Column entrance animations on page load
+Card creation and deletion animations
+Drag and drop visual feedback
+Task count updates with scaling effect
+Input validation shake effect
+Right-click context menu with fade effects
