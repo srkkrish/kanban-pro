@@ -1,54 +1,77 @@
-# React + TypeScript + Vite
+Modern Kanban Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive and responsive Kanban board application featuring smooth animations, intuitive drag-and-drop functionality, and persistent local storage.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Three-Column Layout: Organize tasks into "To Do," "In Progress," and "Completed" columns.
+Drag and Drop: Easily move tasks between columns with intuitive drag-and-drop functionality.
+Smooth Animations: Enjoy smooth transitions and visual feedback for all interactions.
+Local Storage: Tasks persist between browser sessions, ensuring no loss of progress.
+Context Menu: Right-click on tasks to edit or delete them for efficient task management.
+Mobile Responsive: The application adapts to all screen sizes for an optimized experience on mobile devices.
+Visual Feedback: Color-coded columns and tasks with hover effects for an enhanced user experience.
+Task Timestamps: Automatically records the date and time for each task creation and update.
+Getting Started
 
-## Expanding the ESLint configuration
+Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+This application requires only a modern web browser (Chrome, Firefox, Safari, Edge, etc.).
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Installation
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Clone this repository or download the source files:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Bash
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+git clone https://github.com/ansh0330/Modern-Kanban-Board.git
+Open index.html in your web browser.
+
+Usage
+
+Adding Tasks
+
+Enter your task in the input field at the bottom of the desired column.
+Click the "Add Task" button or press the Enter key.
+The task will be added to the selected column, along with the current timestamp.
+Moving Tasks
+
+Click and hold on a task.
+Drag it to another column.
+Release the task in its new location.
+Editing Tasks
+
+Right-click on a task.
+Select "Edit Task" from the context menu.
+Enter the new task text in the prompt.
+The task will be updated with the new text and the current timestamp.
+Deleting Tasks
+
+Right-click on a task.
+Select "Delete Task" from the context menu.
+The task will be removed with a smooth fade-out animation.
+Technical Details
+
+Responsive Design:
+The application utilizes CSS Grid and Flexbox to ensure responsiveness across various screen sizes. Media queries are used to adjust the layout and font sizes for optimal viewing on mobile devices and tablets.
+Context Menu:
+The context menu is created using Javascript event listeners that trigger on right mouse clicks. The menu is dynamically created and styled using css.
+File Structure
+index.html: The main HTML structure.
+style.css: Contains styling, using CSS variables for theming.
+script.js: Handles all JavaScript functionality.
+Key Technologies
+Vanilla JavaScript: No dependencies or frameworks required.
+CSS3: Modern styling using variables, transitions, and animations.
+HTML5 Drag and Drop API: Native drag-and-drop functionality.
+Local Storage API: Persistent data storage in the browser, so your tasks are saved even after closing and reopening the browser.
+Animation Effects
+Column entrance animations on page load.
+Task creation and deletion animations for smoother user experience.
+Visual cues during drag-and-drop provide clear feedback.
+Task count updates with a scaling effect for better visibility.
+A shake effect provides visual feedback for input validation errors.
+A right-click context menu with fade-in/out effects enhances the user interface.
+Contributing
+
+Contributions, including bug fixes and feature enhancements, are welcome. Feel free to fork this repository and submit pull requests.
