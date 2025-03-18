@@ -24,7 +24,7 @@ This application requires only a modern web browser (Chrome, Firefox, Safari, Ed
 ```bash
 git clone https://github.com/srkkrish/kanban-pro.git
 ```
-2. Navigate to the project folder and do npm install then npm run dev to run the project.
+2. Navigate to the project folder and do **npm install** then **npm run dev** to run the project.
 
 ## Usage
 
