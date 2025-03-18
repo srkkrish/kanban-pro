@@ -23,3 +23,22 @@ Clone this repository or download the source files:
 
 ```bash
 git clone https://github.com/srkkrish/kanban-pro.git
+
+**Usage**
+
+## Adding Tasks
+  1. Type your task in the input field at the bottom of any column
+  2. Click the "Add Task" button or press Enter
+  3. The task will appear in the selected column with the current timestamp
+## Moving Tasks
+  1. Click and hold on a task
+  2. Drag it to another section (Eg: From ToDo to In progress)
+  3. Release to drop the task in its new location
+## Editing & Deleting Tasks
+  1. You will find the action buttons on end of each task (Edit & Delete)
+  2. Use the buttons to do the necessary action
+  3. On editing the task it will show up a input box where you can modify the task details an upon clicking outside it will be saved
+  4. The task will update with the new text and a current timestamp
+
+**Contributing**
+    Contributions, including bug fixes and feature enhancements, are welcome. Feel free to fork this repository and submit pull requests.
