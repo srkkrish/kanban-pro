@@ -29,12 +29,12 @@ git clone https://github.com/srkkrish/kanban-pro.git
 
 ### Adding Tasks
   1. Type your task in the input field at the bottom of any column
-  2. Click the "Add Task" button or press Enter
+  2. Click the "Add Task" button to add the new task
   3. The task will appear in the selected column with the current timestamp
 ### Moving Tasks
   1. Click and hold on a task
-  2. Drag it to another section (Eg: From ToDo to In progress)
-  3. Release to drop the task in its new location
+  2. Drag it to another section (Eg: From ToDo to In Progress)
+  3. Release to drop the task in its new section
 ### Editing & Deleting Tasks
   1. You will find the action buttons on end of each task (Edit & Delete)
   2. Use the buttons to do the necessary action
