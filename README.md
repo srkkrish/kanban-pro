@@ -42,4 +42,4 @@ git clone https://github.com/srkkrish/kanban-pro.git
   4. The task will update with the new text and a current timestamp
 
 **Contributing**
-    Contributions, including bug fixes and feature enhancements, are welcome. Feel free to fork this repository and submit pull requests.
+Contributions, including bug fixes and feature enhancements, are welcome. Feel free to fork this repository and submit pull requests.
