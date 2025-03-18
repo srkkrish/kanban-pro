@@ -38,7 +38,7 @@ git clone https://github.com/srkkrish/kanban-pro.git
 ### Editing & Deleting Tasks
   1. You will find the action buttons on end of each task (Edit & Delete)
   2. Use the buttons to do the necessary action
-  3. On editing the task it will show up a input box where you can modify the task details an upon clicking outside it will be saved
+  3. On editing the task it will show up a input box where you can modify the task on upon clicking outside it will be saved
   4. The task will update with the new text and a current timestamp
 
 **Contributing**
