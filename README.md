@@ -19,11 +19,12 @@ This application requires only a modern web browser (Chrome, Firefox, Safari, Ed
 
 ### Installation
 
-Clone this repository or download the source files:
+1. Clone this repository or download the source files:
 
 ```bash
 git clone https://github.com/srkkrish/kanban-pro.git
 ```
+2. Navigate to the project folder and do npm install then npm run dev to run the project.
 
 ## Usage
 
